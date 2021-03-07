@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizz/question.dart';
+import 'package:quizz/score_screen.dart';
 
 class QuizzScreen extends StatefulWidget {
   @override
@@ -42,6 +43,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
                   'PERGUNTA 1:',
                   style: TextStyle(
                     fontSize: 16,
+                    color: Color(0xff24292E),
                   ),
                 ),
                 SizedBox(
@@ -189,7 +191,10 @@ class _QuizzScreenState extends State<QuizzScreen> {
                       },
                     );
                   } else {
-                    
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ScoreScreen(maximum: questionsList.length, result: score,)),
+                    );
                   }
                 },
                 child: Text(

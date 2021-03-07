@@ -14,23 +14,23 @@ class Question {
 
     questions.add(
       Question(
-        'Qual elemento de número atômico 2?',
-        'Hidrogênio',
-        'Carbono',
-        'Hélio',
-        'Lítio',
+        'Qual elemento de número atômico 19?',
+        'Cloro',
+        'Alumínio',
+        'Potássio',
+        'Fósforo',
         3,
       ),
     );
 
     questions.add(
       Question(
-        'Qual elemento de número atômico 1?',
-        'Cloro',
-        'Carbono',
-        'Hélio',
-        'Hidrogênio',
-        4,
+        'Alotropia é o fenômeno que envolve diferentes substâncias:',
+        'Simples, formada pelo mesmo elemento químico',
+        'Compostas, com a mesma fórmula molecular',
+        'Compostas, formadas pelos mesmos elementos químicos',
+        'Simples, com a mesma atomicidade',
+        1,
       ),
     );
 
